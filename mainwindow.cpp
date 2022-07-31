@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include <QScreen>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -8,8 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
 
     ui->setupUi(this);
-
-
+    move(screen()->geometry().center() - frameGeometry().center()); // opens up window to the centre of the screen
 }
 
 MainWindow::~MainWindow()
