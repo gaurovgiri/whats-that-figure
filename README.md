@@ -23,4 +23,4 @@ In case player is currently in a Painter State, client periodically receives pix
 and sends it to the server, the data is than passed to all other players so they can see the drawing.
 In case player is in a Guesser State, the client simply sends players guesses for what the painter is drawing.
 
-![screenshot](https://github.com/gaurovgiri/chatchamber/blob/main/screenshot.png?raw=true)
+![screenshot](https://github.com/gaurovgiri/WhatsThatFigure/blob/main/screenshot.png?raw=true)
