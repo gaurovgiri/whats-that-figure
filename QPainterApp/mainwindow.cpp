@@ -231,7 +231,7 @@ void MainWindow::createAdditionUIComponents()
     }
     else if(player->getState() == 1)
     {
-         ui->gameInfoField_GP->setText("You are currently the Guesser, bellow you can enter your guess for what the other player is drawing");
+         ui->gameInfoField_GP->setText("You are currently the Guesser, below you can enter your guess for what the other player is drawing");
     }
     ui->gameInfoField_GP->setAlignment(Qt::AlignCenter);
 
